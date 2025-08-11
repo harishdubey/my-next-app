@@ -1,0 +1,15 @@
+ul.menu-item {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background: #ccc;
+    padding: 15px;
+    color:#000
+}
+ul.menu-item a {
+     color:#000; text-decoration: none;
+}
+
+ul.menu-item a:hover {
+     color:red; text-decoration: underline;
+}
