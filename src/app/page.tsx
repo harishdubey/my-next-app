@@ -22,6 +22,18 @@ export default function Home() {
         <li>
           <Link href="/study">Study</Link>
         </li>
+        <li>
+          <Link href="/counter">Counter</Link>
+        </li>
+        <li>
+          <Link href="/todolist">To Do List</Link>
+        </li>
+        <li>
+          <Link href="/toggledarkmode">Toggle Dark Mode</Link>
+        </li>
+        <li>
+          <Link href="/searchablelist">Searchable List</Link>
+        </li>
       </ul>
     </div>
   );
