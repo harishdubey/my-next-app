@@ -1,0 +1,6 @@
+.tabsContent {padding:15px; display: none;}
+.tabsContentActive {padding:15px; display: block;}
+.tabNavs{ display: flex;}
+.tabNavs .tab {display: block; padding:10px; background: #ccc; color:#000; cursor: pointer;}
+.tabNavs .tab.active, .tabNavs .tab:hover { background: #000;  color: #fff;}
+

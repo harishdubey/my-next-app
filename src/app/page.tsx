@@ -34,6 +34,18 @@ export default function Home() {
         <li>
           <Link href="/searchablelist">Searchable List</Link>
         </li>
+        <li>
+          <Link href="/stopwatch">Stopwatch</Link>
+        </li>
+        <li>
+          <Link href="/fetchdata">Fetch Data</Link>
+        </li>
+        <li>
+          <Link href="/tabs">Tabs</Link>
+        </li>
+        <li>
+          <Link href="/dropdown">Dropdown</Link>
+        </li>
       </ul>
     </div>
   );
