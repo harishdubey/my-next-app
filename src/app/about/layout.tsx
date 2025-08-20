@@ -10,7 +10,7 @@ const Layout = ({ children }: any) => {
   return (
     <div>
       <h1>Common About Layout</h1>
-      {pathName !== "/about/aboutnested" ? (
+      {pathName !== "/about/aboutme" ? (
         <ul className="menu-item">
           <li>Logo</li>
           <li>

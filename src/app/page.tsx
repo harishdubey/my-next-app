@@ -46,6 +46,18 @@ export default function Home() {
         <li>
           <Link href="/dropdown">Dropdown</Link>
         </li>
+        <li>
+          <Link href="/starRating">Star Rating</Link>
+        </li>
+        <li>
+          <Link href="/responsivenavbar">Responsive Navbar</Link>
+        </li>
+        <li>
+          <Link href="/modalbox">Modal Box</Link>
+        </li>
+        <li>
+          <Link href="/passwordmeter">Password Meter</Link>
+        </li>
       </ul>
     </div>
   );

@@ -1,0 +1,4 @@
+.star {font-size: 46px; line-height: 35px; margin-right: 10px; cursor: pointer;}
+.star.on {color: red;}
+.star.off {color: color;}
+.marginBottom {margin-bottom: 25px;}

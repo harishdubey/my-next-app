@@ -1,0 +1,6 @@
+.openBtn {padding: 10px 15px; font-size: 15px;}
+.closeBtn {padding: 10px 15px; font-size: 15px;}
+
+.modalContainer {position: fixed; top:0; left:0; height: 100%; width: 100%; background: rgba(0,0,0,0.4); display: flex; justify-content: center; align-items: center;}
+.contentContainer {padding: 25px; width:400px; height: 400px; background: #fff; position: relative; border-radius: 15px;}
+.cross {position: absolute; top:-8px; right: -8px; font-weight: bold; width:25px; height: 25px; text-align: center; line-height: 25px; border-radius: 50%; border: 1px solid #f2f2f2; }

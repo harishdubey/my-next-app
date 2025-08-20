@@ -1,10 +1,14 @@
 "use client";
+
+import React from "react";
+
 export default function Student({ params }: any) {
-  console.log(params, "params");
+  const resolvedParams = React.use<any>(params);
+  console.log(resolvedParams, "resolvedParams");
   return (
     <div>
       <h2>Student</h2>
-      <div>Name : {params.student}</div>
+      <div>Name : {resolvedParams.student}</div>
     </div>
   );
 }

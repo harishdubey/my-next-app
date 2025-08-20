@@ -18,6 +18,7 @@ const FetchData = () => {
   const [data, setData] = useState<dataType[]>([]);
   const [data2, setData2] = useState<dataType2[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoading2, setIsLoading2] = useState(true);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
@@ -38,7 +39,7 @@ const FetchData = () => {
       } catch (err) {
         console.log(err);
       } finally {
-        setIsLoading(false);
+        setIsLoading2(false);
       }
     };
     fetchData();
@@ -64,7 +65,7 @@ const FetchData = () => {
       <br />
       <br />
 
-      {isLoading
+      {isLoading2
         ? "Loading...."
         : data2.map((item) => {
             return (

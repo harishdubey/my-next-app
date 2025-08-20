@@ -34,7 +34,7 @@ export default function StudentList() {
       <ul>
         {students.map((item) => {
           return (
-            <li>
+            <li key={item.id}>
               <Link href={`/studentList/${item.name}`}> {item.name}</Link>
             </li>
           );

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 type singleObject = {
   label: string;
@@ -79,6 +80,10 @@ const DropdownMain = () => {
         onSelect={handleDropDownSelect}
         placeholder={"Please select option"}
       />
+      <div>
+        {" "}
+        <Link href={"/"}>Back to Home</Link>
+      </div>
     </div>
   );
 };

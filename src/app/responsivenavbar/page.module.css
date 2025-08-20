@@ -1,0 +1,27 @@
+.hamburger {width:30px; height: 30px; background: grey; display: none; flex-direction: column; justify-content: center; align-items: center;  }
+.hamburger span {width:22px; height:3px; background: #333;margin: 2px 0;  transition: 0.3s;}
+.navbar { background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+position: fixed; width: 100%; top:0; left: 0; z-index: 1111;
+}
+.navContainer {max-width: 1100px; margin: auto; padding:15px; display: flex; align-items: center; justify-content: space-between;}
+.logo {font-size: 25px; font-weight: bold; color:#007bff}
+.navLinks {display: flex; list-style: none; margin: 0; padding: 0;}
+.navLinks li {margin-left: 2rem;}
+.navLinks li a {text-decoration: none; font-size: 14px; color:#333; transition: 0.3s;}
+.navLinks li a:hover { color:#007bff; }
+
+.heading  {margin-top:100px}
+
+@media (max-width: 768) {
+    .hamburger {display: flex;}
+.navLinks { position: absolute; top: 65px; right: -100%; background: #f2f2f2; flex-direction: column; width: 200px; padding: 0 1px;
+transition: right 0.3s ease-in-out;
+}
+.navLinks li {margin:1px 0; background: #fff;}
+.navLinks li a {padding:10px; display:block;}
+.navLinks.active {right: 0;}
+}
+
+.hamburger.open span:nth-child(1) {transform: rotate(45deg) translate(2px, 2px);}
+.hamburger.open span:nth-child(2) {display: none;}
+.hamburger.open span:nth-child(3) {transform: rotate(-45deg) translate(3px, -2px);}
