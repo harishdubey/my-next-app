@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 const PasswordMeter = () => {
@@ -78,6 +79,9 @@ const PasswordMeter = () => {
             {getStrengthLabel()}
           </div>
         )}
+      </div>
+      <div style={{ paddingTop: "30px" }}>
+        <Link href={"/"}>Back to Home</Link>
       </div>
     </div>
   );

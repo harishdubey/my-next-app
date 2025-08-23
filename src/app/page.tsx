@@ -58,6 +58,15 @@ export default function Home() {
         <li>
           <Link href="/passwordmeter">Password Meter</Link>
         </li>
+        <li>
+          <Link href="/conditionalformfield">Conditional Form</Link>
+        </li>
+        <li>
+          <Link href="/addremoveitem">Add Remove Component</Link>
+        </li>
+        <li>
+          <Link href="/faqaccordion">Faq Accordion</Link>
+        </li>
       </ul>
     </div>
   );

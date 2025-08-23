@@ -10,7 +10,7 @@ position: fixed; width: 100%; top:0; left: 0; z-index: 1111;
 .navLinks li a {text-decoration: none; font-size: 14px; color:#333; transition: 0.3s;}
 .navLinks li a:hover { color:#007bff; }
 
-.heading  {margin-top:100px}
+.heading  {padding-top:100px}
 
 @media (max-width: 768) {
     .hamburger {display: flex;}
