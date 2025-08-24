@@ -66,9 +66,15 @@ export default function Home() {
         </li>
         <li>
           <Link href="/faqaccordion">Faq Accordion</Link>
-        </li>{" "}
+        </li>
         <li>
           <Link href="/copytoclipboard">Copy to Clipboard</Link>
+        </li>
+        <li>
+          <Link href="/scrolltotop">Scroll To Top</Link>
+        </li>
+        <li>
+          <Link href="/submitform">Submit Form</Link>
         </li>
       </ul>
     </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const CopyToClipboard = () => {
@@ -17,7 +18,7 @@ const CopyToClipboard = () => {
   return (
     <div>
       <h1>Copy to Clipboard</h1>
-      <div>
+      <div style={{ paddingBottom: "30px" }}>
         <label>Copy from Textbox</label>
         <br />
         <textarea
@@ -31,6 +32,7 @@ const CopyToClipboard = () => {
           {copied ? "Copied" : "Copy to Clipboard"}
         </button>
       </div>
+      <Link href={"/"}>Back to Home</Link>
     </div>
   );
 };
